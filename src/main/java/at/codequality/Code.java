@@ -75,7 +75,7 @@ public @interface Code {
 		/**
 		 * <a href=
 		 * "http://www.refactoring.com/catalog/introduceParameterObject.html"
-		 * ></a>.
+		 * >Introduce Parameter Object</a>.
 		 * <p>
 		 * You have a group of parameters that naturally go together.
 		 * 
@@ -92,7 +92,7 @@ public @interface Code {
 		/**
 		 * <a href=
 		 * "http://www.refactoring.com/catalog/replaceMethodWithMethodObject.html"
-		 * ></a>.
+		 * >Replace Method With Method Object</a>.
 		 * <p>
 		 * You have a long method that uses local variables in such a way that
 		 * you cannot apply Extract Method
@@ -119,9 +119,6 @@ public @interface Code {
 		 * 
 		 * Send the whole object instead.
 		 * </p>
-		 * 
-		 * @author dirk.mahler
-		 * 
 		 */
 		@Documented
 		public @interface PreserveWholeObject {
